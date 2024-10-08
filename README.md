@@ -1,4 +1,4 @@
-# Ecommerce API for wholesale
+# Ecommerce services for wholesale
 
 ### Technology
 - .Net core, PostgreSQL, Rabbitmq, Docker
