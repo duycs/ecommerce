@@ -16,5 +16,5 @@
 - Notification
 
 ### Deploy
-- Docker compose
+- Docker
 - Gitlab CI/CD
