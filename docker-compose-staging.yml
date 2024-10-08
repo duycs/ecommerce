@@ -1,0 +1,84 @@
+version: '3.8'
+services: 
+
+  gateway-api:
+    image: registry.sanbanbuon.com/ecommerce/staging/gateway-api:latest
+    restart: always
+    ports:
+      - 5000:80
+    networks:
+      - nk-service
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+      - ASPNETCORE_ENVIRONMENT=Staging 
+    container_name: gateway-api
+
+  identity-api:
+    image: registry.sanbanbuon.com/ecommerce/staging/identity-api:latest
+    restart: always
+    networks:
+      - nk-service
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+      - ASPNETCORE_ENVIRONMENT=Staging
+    depends_on:
+      - gateway-api
+    container_name: identity-api
+
+  ecommerce-api:
+    image: registry.sanbanbuon.com/ecommerce/staging/ecommerce-api:latest
+    restart: always
+    networks:
+      - nk-service 
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+      - ASPNETCORE_ENVIRONMENT=Staging
+    container_name: ecommerce-api
+
+  order-api:
+    image: registry.sanbanbuon.com/ecommerce/staging/order-api:latest
+    restart: always
+    networks:
+      - nk-service 
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+      - ASPNETCORE_ENVIRONMENT=Staging
+    container_name: order-api
+
+  integration-api:
+    image: registry.sanbanbuon.com/ecommerce/staging/integration-api:latest
+    restart: always
+    networks:
+      - nk-service 
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+      - ASPNETCORE_ENVIRONMENT=Staging
+    container_name: integration-api
+
+  synchronize-jobs:
+    image: registry.sanbanbuon.com/ecommerce/staging/synchronize-jobs:latest
+    restart: always
+    ports:
+      - 5002:80
+    command: /bin/sh apk add tzdata -y
+    networks:
+      - nk-service
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+      - ASPNETCORE_ENVIRONMENT=Staging
+    container_name: synchronize-jobs
+
+  notification-api:
+    image: registry.sanbanbuon.com/ecommerce/staging/notification-api:latest
+    restart: always
+    networks:
+      - nk-service 
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+      - ASPNETCORE_ENVIRONMENT=Staging
+    container_name: notification-api
+
+networks:
+  nk-service:
+    name: nk-service
+    external: true

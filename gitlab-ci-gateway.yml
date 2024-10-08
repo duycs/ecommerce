@@ -1,0 +1,58 @@
+.gateway-api:
+  rules:
+    - if: $CI_PIPELINE_SOURCE != 'web' && $CI_COMMIT_MESSAGE =~ /\[all\]/
+    - if: $CI_PIPELINE_SOURCE != 'web' && $CI_COMMIT_MESSAGE =~ /\[gateway\]/
+    - if: $CI_PIPELINE_SOURCE != 'web' && $CI_COMMIT_MESSAGE !~ /\[gateway\]/ && $CI_COMMIT_MESSAGE !~ /\[identity\]/ && $CI_COMMIT_MESSAGE !~ /\[ecommerce\]/ && $CI_COMMIT_MESSAGE !~ /\[order\]/ && $CI_COMMIT_MESSAGE !~ /\[synchronize\]/ && $CI_COMMIT_MESSAGE !~ /\[integration\]/ && $CI_COMMIT_MESSAGE !~ /\[notification\]/ && $CI_COMMIT_MESSAGE !~ /\[all\]/
+      changes:
+        - src/gateway/ApiGateway/**/*
+    - if: $CI_PIPELINE_SOURCE == "web" && ($SERVICES =~ /gateway/ || $SERVICES =~ /all/)
+
+gateway-api 1/4:
+  extends: .gateway-api
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  stage: gateway-api
+  inherit:
+    default: false
+  tags:
+    - dev-vpc-vt
+  script:
+    - echo $CI_COMMIT_MESSAGE
+    - echo $CI_PIPELINE_SOURCE
+    - echo $SERVICES
+    - docker build . --build-arg ASPNETCORE_ENVIRONMENT=production -f src/gateway/ApiGateway/Dockerfile -t ${DOCKER_PREFIX_STAGING}gateway-api:latest
+
+gateway-api 2/4:
+  extends: .gateway-api
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  needs: [gateway-api 1/4]
+  stage: gateway-api
+  tags:
+    - dev-vpc-vt
+  script:
+    - docker push ${DOCKER_PREFIX_STAGING}gateway-api:latest
+
+gateway-api 3/4:
+  extends: .gateway-api
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  needs: [gateway-api 2/4]
+  stage: gateway-api
+  tags:
+    - dev-vpc-vt
+  script:
+    - docker-compose -f $COMPOSE_FILE pull gateway-api
+
+gateway-api 4/4:
+  extends: .gateway-api
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  needs: [gateway-api 3/4]
+  stage: gateway-api
+  inherit:
+    default: false
+  tags:
+    - dev-vpc-vt
+  script:
+    - docker-compose -f $COMPOSE_FILE   up -d gateway-api

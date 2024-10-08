@@ -1,0 +1,70 @@
+{
+  "ReRoutes": [
+    {
+      "UpstreamPathTemplate": "/api/{version}/identity/{everything}",
+      "UpstreamHttpMethod": [],
+      "Key": "identity",
+      "DownstreamPathTemplate": "/api/{version}/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "identity-api",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/{version}/ecommerce/{everything}",
+      "UpstreamHttpMethod": [],
+      "Key": "ecommerce",
+      "DownstreamPathTemplate": "/api/{version}/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ecommerce-api",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/{version}/order/{everything}",
+      "UpstreamHttpMethod": [],
+      "Key": "order",
+      "DownstreamPathTemplate": "/api/{version}/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "order-api",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/{version}/integration/{everything}",
+      "UpstreamHttpMethod": [],
+      "Key": "integration",
+      "DownstreamPathTemplate": "/api/{version}/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "integration-api",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/{version}/notification/{everything}",
+      "UpstreamHttpMethod": [],
+      "Key": "notification",
+      "DownstreamPathTemplate": "/api/{version}/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "notification-api",
+          "Port": 80
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {}
+}

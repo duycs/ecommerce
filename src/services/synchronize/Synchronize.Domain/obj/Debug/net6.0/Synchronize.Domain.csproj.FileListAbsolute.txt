@@ -1,0 +1,15 @@
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Domain\bin\Debug\net6.0\Synchronize.Domain.deps.json
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Domain\bin\Debug\net6.0\Synchronize.Domain.dll
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Domain\bin\Debug\net6.0\Synchronize.Domain.pdb
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Domain\bin\Debug\net6.0\ECommerce.Shared.dll
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Domain\bin\Debug\net6.0\ECommerce.Shared.pdb
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Domain\obj\Debug\net6.0\Synchronize.Domain.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Domain\obj\Debug\net6.0\Synchronize.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Domain\obj\Debug\net6.0\Synchronize.Domain.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Domain\obj\Debug\net6.0\Synchronize.Domain.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Domain\obj\Debug\net6.0\Synchronize.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Domain\obj\Debug\net6.0\Synchronize.Domain.csproj.CopyComplete
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Domain\obj\Debug\net6.0\Synchronize.Domain.dll
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Domain\obj\Debug\net6.0\refint\Synchronize.Domain.dll
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Domain\obj\Debug\net6.0\Synchronize.Domain.pdb
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Domain\obj\Debug\net6.0\ref\Synchronize.Domain.dll

@@ -1,0 +1,133 @@
+version: '3.8'
+services:
+  postgresql:
+    image: postgres:latest
+    environment:
+      - POSTGRES_PASSWORD=Abcd@1234
+    networks:
+      - ecommerce
+    volumes:
+      - ecommerce-postgres:/var/lib/postgresql/data
+    command: postgres -N 500
+    container_name: postgresql
+
+  rabbitmq:
+    image: rabbitmq:${COMMIT:-dev}
+    networks:
+      - ecommerce
+    build:
+      context: .
+      dockerfile: rabbitmq/Dockerfile
+    container_name: rabbitmq
+    dns:
+     - 8.8.8.8
+     - 8.8.4.4
+
+  gateway-api:
+    image: gateway-api:${COMMIT:-dev}
+    networks:
+      - ecommerce
+    build:
+      context: .
+      dockerfile: src/gateway/ApiGateway/Dockerfile
+    container_name: gateway-api
+    dns:
+     - 8.8.8.8
+     - 8.8.4.4
+
+  identity-api:
+    image: identity-api:${COMMIT:-dev}
+    networks:
+      - ecommerce
+    build:
+      context: .
+      dockerfile: src/identity/Identity.Api/Dockerfile
+    depends_on:
+      - postgresql
+      - gateway-api
+    container_name: identity-api
+    dns:
+     - 8.8.8.8
+     - 8.8.4.4
+
+  ecommerce-api:
+    image: ecommerce-api:${COMMIT:-dev}
+    networks:
+      - ecommerce
+    build:
+      context: .
+      dockerfile: src/services/ecommerce/ECommerce.Api/Dockerfile
+    depends_on:
+      - rabbitmq
+      - identity-api
+    container_name: ecommerce-api
+    dns:
+     - 8.8.8.8
+     - 8.8.4.4
+
+  order-api:
+    image: order-api:${COMMIT:-dev}
+    networks:
+      - ecommerce
+    build:
+      context: .
+      dockerfile: src/services/order/Order.Api/Dockerfile
+    depends_on:
+      - rabbitmq
+      - identity-api
+    container_name: order-api
+    dns:
+     - 8.8.8.8
+     - 8.8.4.4
+
+  integration-api:
+    image: integration-api:${COMMIT:-dev}
+    networks:
+      - ecommerce
+    build:
+      context: .
+      dockerfile: src/services/integration/Integration.Api/Dockerfile
+    depends_on:
+      - rabbitmq
+      - identity-api
+    container_name: integration-api
+    dns:
+     - 8.8.8.8
+     - 8.8.4.4
+
+  synchronize-jobs:
+    image: synchronize-jobs:${COMMIT:-dev}
+    networks:
+      - ecommerce
+    build:
+      context: .
+      dockerfile: src/services/synchronize/Synchronize.Api/Dockerfile
+    depends_on:
+      - postgresql
+    container_name: synchronize-jobs
+    dns:
+     - 8.8.8.8
+     - 8.8.4.4
+
+  notification-api:
+    image: notification-api:${COMMIT:-dev}
+    networks:
+      - ecommerce
+    build:
+      context: .
+      dockerfile: src/services/notification/Notification.Api/Dockerfile
+    depends_on:
+      - rabbitmq
+      - identity-api
+    container_name: notification-api
+    dns:
+     - 8.8.8.8
+     - 8.8.4.4
+
+volumes:
+  ecommerce-postgres:
+    external: true
+
+networks:
+  ecommerce:
+    name: ecommerce

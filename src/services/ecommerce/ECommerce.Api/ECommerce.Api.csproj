@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>37cec0e9-aa57-4bf2-ada9-648aef87b4d9</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\buildingBlocks\EventBusRabbitMQ\EventBusRabbitMQ.csproj" />
+    <ProjectReference Include="..\..\..\shared\ECommerce.Shared\ECommerce.Shared.csproj" />
+    <ProjectReference Include="..\ECommerce.Application.Read\ECommerce.Application.Read.csproj" />
+    <ProjectReference Include="..\ECommerce.Application.Write\ECommerce.Application.Write.csproj" />
+    <ProjectReference Include="..\ECommerce.Infrastructure\ECommerce.Infrastructure.csproj" />
+    <ProjectReference Include="..\ECommerce.Services\ECommerce.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,17 @@
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\bin\Debug\net6.0\Synchronize.Infrastructure.deps.json
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\bin\Debug\net6.0\Synchronize.Infrastructure.dll
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\bin\Debug\net6.0\Synchronize.Infrastructure.pdb
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\bin\Debug\net6.0\ECommerce.Shared.dll
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\bin\Debug\net6.0\Synchronize.Domain.dll
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\bin\Debug\net6.0\Synchronize.Domain.pdb
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\bin\Debug\net6.0\ECommerce.Shared.pdb
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\obj\Debug\net6.0\Synchronize.Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\obj\Debug\net6.0\Synchronize.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\obj\Debug\net6.0\Synchronize.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\obj\Debug\net6.0\Synchronize.Infrastructure.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\obj\Debug\net6.0\Synchronize.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\obj\Debug\net6.0\Synchronize.Infrastructure.csproj.CopyComplete
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\obj\Debug\net6.0\Synchronize.Infrastructure.dll
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\obj\Debug\net6.0\refint\Synchronize.Infrastructure.dll
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\obj\Debug\net6.0\Synchronize.Infrastructure.pdb
+D:\Projects\pexnic\ecommerce\src\services\synchronize\Synchronize.Infrastructure\obj\Debug\net6.0\ref\Synchronize.Infrastructure.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7Pqy7KdDg+FqNsRsjb2nDeNFapgPSygnFUTG61Mlksw=",
+  "Source": "Synchronize.Api",
+  "BasePath": "_content/Synchronize.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

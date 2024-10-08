@@ -1,0 +1,70 @@
+{
+  "ReRoutes": [
+    {
+      "UpstreamPathTemplate": "/api/{version}/identity/{everything}",
+      "UpstreamHttpMethod": [],
+      "Key": "identity",
+      "DownstreamPathTemplate": "/api/{version}/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44917
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/{version}/ecommerce/{everything}",
+      "UpstreamHttpMethod": [],
+      "Key": "ecommerce",
+      "DownstreamPathTemplate": "/api/{version}/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 38051
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/{version}/order/{everything}",
+      "UpstreamHttpMethod": [],
+      "Key": "order",
+      "DownstreamPathTemplate": "/api/{version}/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 37748
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/{version}/integration/{everything}",
+      "UpstreamHttpMethod": [],
+      "Key": "integration",
+      "DownstreamPathTemplate": "/api/{version}/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57138
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/{version}/notification/{everything}",
+      "UpstreamHttpMethod": [],
+      "Key": "notification",
+      "DownstreamPathTemplate": "/api/{version}/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 41298
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {}
+}

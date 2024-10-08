@@ -1,0 +1,12 @@
+D:\Projects\pexnic\ecommerce\src\services\ecommerce\ECommerce.Services.Interfaces\bin\Debug\net6.0\ECommerce.Services.Interfaces.deps.json
+D:\Projects\pexnic\ecommerce\src\services\ecommerce\ECommerce.Services.Interfaces\bin\Debug\net6.0\ECommerce.Services.Interfaces.dll
+D:\Projects\pexnic\ecommerce\src\services\ecommerce\ECommerce.Services.Interfaces\bin\Debug\net6.0\ECommerce.Services.Interfaces.pdb
+D:\Projects\pexnic\ecommerce\src\services\ecommerce\ECommerce.Services.Interfaces\obj\Debug\net6.0\ECommerce.Services.Interfaces.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\services\ecommerce\ECommerce.Services.Interfaces\obj\Debug\net6.0\ECommerce.Services.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\services\ecommerce\ECommerce.Services.Interfaces\obj\Debug\net6.0\ECommerce.Services.Interfaces.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\services\ecommerce\ECommerce.Services.Interfaces\obj\Debug\net6.0\ECommerce.Services.Interfaces.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\services\ecommerce\ECommerce.Services.Interfaces\obj\Debug\net6.0\ECommerce.Services.Interfaces.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\services\ecommerce\ECommerce.Services.Interfaces\obj\Debug\net6.0\ECommerce.Services.Interfaces.dll
+D:\Projects\pexnic\ecommerce\src\services\ecommerce\ECommerce.Services.Interfaces\obj\Debug\net6.0\refint\ECommerce.Services.Interfaces.dll
+D:\Projects\pexnic\ecommerce\src\services\ecommerce\ECommerce.Services.Interfaces\obj\Debug\net6.0\ECommerce.Services.Interfaces.pdb
+D:\Projects\pexnic\ecommerce\src\services\ecommerce\ECommerce.Services.Interfaces\obj\Debug\net6.0\ref\ECommerce.Services.Interfaces.dll

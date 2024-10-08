@@ -1,0 +1,17 @@
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\bin\Debug\net6.0\Integration.Events.deps.json
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\bin\Debug\net6.0\Integration.Events.dll
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\bin\Debug\net6.0\Integration.Events.pdb
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\bin\Debug\net6.0\ECommerce.Shared.dll
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\bin\Debug\net6.0\EventBus.dll
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\bin\Debug\net6.0\EventBus.pdb
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\bin\Debug\net6.0\ECommerce.Shared.pdb
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\net6.0\Integration.Events.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\net6.0\Integration.Events.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\net6.0\Integration.Events.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\net6.0\Integration.Events.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\net6.0\Integration.Events.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\net6.0\Integration.Events.csproj.CopyComplete
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\net6.0\Integration.Events.dll
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\net6.0\refint\Integration.Events.dll
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\net6.0\Integration.Events.pdb
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\net6.0\ref\Integration.Events.dll

@@ -1,0 +1,14 @@
+D:\Projects\pexnic\ecommerce\src\shared\ECommerce.Shared\bin\Debug\net6.0\ECommerce.Shared.deps.json
+D:\Projects\pexnic\ecommerce\src\shared\ECommerce.Shared\bin\Debug\net6.0\ECommerce.Shared.runtimeconfig.json
+D:\Projects\pexnic\ecommerce\src\shared\ECommerce.Shared\bin\Debug\net6.0\ECommerce.Shared.dll
+D:\Projects\pexnic\ecommerce\src\shared\ECommerce.Shared\bin\Debug\net6.0\ECommerce.Shared.pdb
+D:\Projects\pexnic\ecommerce\src\shared\ECommerce.Shared\obj\Debug\net6.0\ECommerce.Shared.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\shared\ECommerce.Shared\obj\Debug\net6.0\ECommerce.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\shared\ECommerce.Shared\obj\Debug\net6.0\ECommerce.Shared.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\shared\ECommerce.Shared\obj\Debug\net6.0\ECommerce.Shared.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\shared\ECommerce.Shared\obj\Debug\net6.0\ECommerce.Shared.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\shared\ECommerce.Shared\obj\Debug\net6.0\ECommerce.Shared.dll
+D:\Projects\pexnic\ecommerce\src\shared\ECommerce.Shared\obj\Debug\net6.0\refint\ECommerce.Shared.dll
+D:\Projects\pexnic\ecommerce\src\shared\ECommerce.Shared\obj\Debug\net6.0\ECommerce.Shared.pdb
+D:\Projects\pexnic\ecommerce\src\shared\ECommerce.Shared\obj\Debug\net6.0\ECommerce.Shared.genruntimeconfig.cache
+D:\Projects\pexnic\ecommerce\src\shared\ECommerce.Shared\obj\Debug\net6.0\ref\ECommerce.Shared.dll

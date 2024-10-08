@@ -1,0 +1,13 @@
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\bin\Debug\netcoreapp3.1\Integration.Events.deps.json
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\bin\Debug\netcoreapp3.1\Integration.Events.dll
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\bin\Debug\netcoreapp3.1\Integration.Events.pdb
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\bin\Debug\netcoreapp3.1\EventBus.dll
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\bin\Debug\netcoreapp3.1\EventBus.pdb
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\netcoreapp3.1\Integration.Events.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\netcoreapp3.1\Integration.Events.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\netcoreapp3.1\Integration.Events.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\netcoreapp3.1\Integration.Events.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\netcoreapp3.1\Integration.Events.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\netcoreapp3.1\Integration.Events.csproj.CopyComplete
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\netcoreapp3.1\Integration.Events.dll
+D:\Projects\pexnic\ecommerce\src\shared\Integration.Events\Integration.Events\obj\Debug\netcoreapp3.1\Integration.Events.pdb

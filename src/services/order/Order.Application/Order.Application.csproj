@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\buildingBlocks\EventBus\EventBus.csproj" />
+    <ProjectReference Include="..\..\..\shared\ECommerce.Shared\ECommerce.Shared.csproj" />
+    <ProjectReference Include="..\Order.Domain\Order.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Models\ProductAttributes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\ProductAttributes\" />
+    <Folder Include="RequestModels\" />
+  </ItemGroup>
+</Project>

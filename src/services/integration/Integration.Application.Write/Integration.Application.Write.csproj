@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\shared\Integration.Events\Integration.Events\Integration.Events.csproj" />
+    <ProjectReference Include="..\Integration.Domain\Integration.Domain.csproj" />
+    <ProjectReference Include="..\Integration.Infrastructure\Integration.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

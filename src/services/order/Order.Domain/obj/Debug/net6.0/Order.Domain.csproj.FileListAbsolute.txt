@@ -1,0 +1,15 @@
+D:\Projects\pexnic\ecommerce\src\services\order\Order.Domain\bin\Debug\net6.0\Order.Domain.deps.json
+D:\Projects\pexnic\ecommerce\src\services\order\Order.Domain\bin\Debug\net6.0\Order.Domain.dll
+D:\Projects\pexnic\ecommerce\src\services\order\Order.Domain\bin\Debug\net6.0\Order.Domain.pdb
+D:\Projects\pexnic\ecommerce\src\services\order\Order.Domain\bin\Debug\net6.0\ECommerce.Shared.dll
+D:\Projects\pexnic\ecommerce\src\services\order\Order.Domain\bin\Debug\net6.0\ECommerce.Shared.pdb
+D:\Projects\pexnic\ecommerce\src\services\order\Order.Domain\obj\Debug\net6.0\Order.Domain.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\services\order\Order.Domain\obj\Debug\net6.0\Order.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\services\order\Order.Domain\obj\Debug\net6.0\Order.Domain.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\services\order\Order.Domain\obj\Debug\net6.0\Order.Domain.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\services\order\Order.Domain\obj\Debug\net6.0\Order.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\services\order\Order.Domain\obj\Debug\net6.0\Order.Domain.csproj.CopyComplete
+D:\Projects\pexnic\ecommerce\src\services\order\Order.Domain\obj\Debug\net6.0\Order.Domain.dll
+D:\Projects\pexnic\ecommerce\src\services\order\Order.Domain\obj\Debug\net6.0\refint\Order.Domain.dll
+D:\Projects\pexnic\ecommerce\src\services\order\Order.Domain\obj\Debug\net6.0\Order.Domain.pdb
+D:\Projects\pexnic\ecommerce\src\services\order\Order.Domain\obj\Debug\net6.0\ref\Order.Domain.dll

@@ -1,0 +1,15 @@
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\bin\Debug\net6.0\EventBus.deps.json
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\bin\Debug\net6.0\EventBus.dll
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\bin\Debug\net6.0\EventBus.pdb
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\bin\Debug\net6.0\ECommerce.Shared.dll
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\bin\Debug\net6.0\ECommerce.Shared.pdb
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\net6.0\EventBus.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\net6.0\EventBus.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\net6.0\EventBus.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\net6.0\EventBus.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\net6.0\EventBus.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\net6.0\EventBus.csproj.CopyComplete
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\net6.0\EventBus.dll
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\net6.0\refint\EventBus.dll
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\net6.0\EventBus.pdb
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\net6.0\ref\EventBus.dll

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\shared\ECommerce.Shared\ECommerce.Shared.csproj" />
+		<ProjectReference Include="..\ECommerce.Application\ECommerce.Application.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Queries\ProductAttributes\" />
+	  <Folder Include="Queries\Shops\" />
+	  <Folder Include="QueryHandlers\ProductAttributes\" />
+	  <Folder Include="QueryHandlers\Shops\" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\bin\Debug\netcoreapp3.1\Scheduler.Jobs.deps.json
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\bin\Debug\netcoreapp3.1\Scheduler.Jobs.dll
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\bin\Debug\netcoreapp3.1\Scheduler.Jobs.pdb
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\netcoreapp3.1\Scheduler.Jobs.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\netcoreapp3.1\Scheduler.Jobs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\netcoreapp3.1\Scheduler.Jobs.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\netcoreapp3.1\Scheduler.Jobs.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\netcoreapp3.1\Scheduler.Jobs.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\netcoreapp3.1\Scheduler.Jobs.dll
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\netcoreapp3.1\Scheduler.Jobs.pdb

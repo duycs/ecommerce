@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hz0Teqzz35rWoj9gjykbifYuDxxQZSxF+HSaKPwSV341zz6Te4GL//V/QIonY5TgTBotDbBJ+WuR/MXkra+kqg==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\pexnic\\ecommerce\\src\\shared\\Scheduler.Jobs\\Scheduler.Jobs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\duycs\\.nuget\\packages\\hangfire.core\\1.7.28\\hangfire.core.1.7.28.nupkg.sha512",
+    "C:\\Users\\duycs\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

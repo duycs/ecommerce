@@ -1,0 +1,12 @@
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\bin\Debug\net6.0\Identity.Application.deps.json
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\bin\Debug\net6.0\Identity.Application.dll
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\bin\Debug\net6.0\Identity.Application.pdb
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\net6.0\Identity.Application.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\net6.0\Identity.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\net6.0\Identity.Application.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\net6.0\Identity.Application.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\net6.0\Identity.Application.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\net6.0\Identity.Application.dll
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\net6.0\refint\Identity.Application.dll
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\net6.0\Identity.Application.pdb
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\net6.0\ref\Identity.Application.dll

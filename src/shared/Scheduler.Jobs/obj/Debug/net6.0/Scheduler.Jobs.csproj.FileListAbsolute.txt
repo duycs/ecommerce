@@ -1,0 +1,12 @@
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\bin\Debug\net6.0\Scheduler.Jobs.deps.json
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\bin\Debug\net6.0\Scheduler.Jobs.dll
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\bin\Debug\net6.0\Scheduler.Jobs.pdb
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\net6.0\Scheduler.Jobs.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\net6.0\Scheduler.Jobs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\net6.0\Scheduler.Jobs.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\net6.0\Scheduler.Jobs.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\net6.0\Scheduler.Jobs.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\net6.0\Scheduler.Jobs.dll
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\net6.0\refint\Scheduler.Jobs.dll
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\net6.0\Scheduler.Jobs.pdb
+D:\Projects\pexnic\ecommerce\src\shared\Scheduler.Jobs\obj\Debug\net6.0\ref\Scheduler.Jobs.dll

@@ -1,0 +1,10 @@
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Application\bin\Debug\netcoreapp3.1\Integration.Application.deps.json
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Application\bin\Debug\netcoreapp3.1\Integration.Application.dll
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Application\bin\Debug\netcoreapp3.1\Integration.Application.pdb
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Application\obj\Debug\netcoreapp3.1\Integration.Application.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Application\obj\Debug\netcoreapp3.1\Integration.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Application\obj\Debug\netcoreapp3.1\Integration.Application.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Application\obj\Debug\netcoreapp3.1\Integration.Application.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Application\obj\Debug\netcoreapp3.1\Integration.Application.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Application\obj\Debug\netcoreapp3.1\Integration.Application.dll
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Application\obj\Debug\netcoreapp3.1\Integration.Application.pdb

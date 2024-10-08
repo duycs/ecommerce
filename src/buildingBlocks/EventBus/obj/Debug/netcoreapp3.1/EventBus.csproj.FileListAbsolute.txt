@@ -1,0 +1,10 @@
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\bin\Debug\netcoreapp3.1\EventBus.deps.json
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\bin\Debug\netcoreapp3.1\EventBus.dll
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\bin\Debug\netcoreapp3.1\EventBus.pdb
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\netcoreapp3.1\EventBus.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\netcoreapp3.1\EventBus.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\netcoreapp3.1\EventBus.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\netcoreapp3.1\EventBus.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\netcoreapp3.1\EventBus.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\netcoreapp3.1\EventBus.dll
+D:\Projects\pexnic\ecommerce\src\buildingBlocks\EventBus\obj\Debug\netcoreapp3.1\EventBus.pdb

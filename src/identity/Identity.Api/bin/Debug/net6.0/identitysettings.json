@@ -1,0 +1,119 @@
+{
+  "IdentityServer": {
+    "ApiScopes": [
+      {
+        "Name": "ecommerce",
+        "DisplayName": "Access to Ecommerce API"
+      },
+      {
+        "Name": "identity",
+        "DisplayName": "Access to Identity API"
+      },
+      {
+        "Name": "order",
+        "DisplayName": "Access to Order API"
+      },
+      {
+        "Name": "integration",
+        "DisplayName": "Access to Integration API"
+      },
+      {
+        "Name": "notification",
+        "DisplayName": "Access to Notification API"
+      }
+    ],
+    "ApiResources": [
+      {
+        "Name": "ecommerce",
+        "DisplayName": "Ecommerce API Service",
+        "Description": "Access to Ecommerce API",
+        "Scopes": [ "ecommerce" ]
+      },
+      {
+        "Name": "identity",
+        "DisplayName": "Identity API Service",
+        "Description": "Access to Identity API",
+        "Scopes": [ "identity" ]
+      },
+      {
+        "Name": "order",
+        "DisplayName": "Order API Service",
+        "Description": "Access to Order API",
+        "Scopes": [ "order" ]
+      },
+      {
+        "Name": "integration",
+        "DisplayName": "Integration API Service",
+        "Description": "Access to Integration API",
+        "Scopes": [ "integration" ]
+      },
+      {
+        "Name": "notification",
+        "DisplayName": "Notification API Service",
+        "Description": "Access to Notification API",
+        "Scopes": [ "notification" ]
+      }
+    ],
+    "Clients": [
+      {
+        "ClientId": "identity_service",
+        "ClientName": "Identity service",
+        "AllowedGrantTypes": [ "service_integration" ],
+        "AccessTokenType": 1,
+        "AllowedScopes": [ "identity" ]
+      },
+      {
+        "ClientId": "ecommerce_service",
+        "ClientName": "Ecommerce service",
+        "AllowedGrantTypes": [ "service_integration" ],
+        "AccessTokenType": 1,
+        "AllowedScopes": [ "identity" ]
+      },
+      {
+        "ClientId": "mobile",
+        "ClientName": "Mobile Apps",
+        "AllowedGrantTypes": [ "password" ],
+        "AllowAccessTokensViaBrowser": false,
+        "RequireConsent": false,
+        "AllowOfflineAccess": true,
+        "AccessTokenType": 1,
+        "AccessTokenLifetime": 3600, // 1 hours
+        "IdentityTokenLifetime": 3600,
+        "UpdateAccessTokenClaimsOnRefresh": true,
+        "RefreshTokenExpiration": 1,
+        "SlidingRefreshTokenLifetime": 259200, // 3 days
+        "RefreshTokenUsage": 1,
+        "AlwaysSendClientClaims": true,
+        "AlwaysIncludeUserClaimsInIdToken": true,
+        "RequireClientSecret": false,
+        "AllowedScopes": [ "identity", "ecommerce", "order", "openid", "offline_access", "profile", "email", "notification" ]
+      },
+      {
+        "ClientId": "saas",
+        "ClientName": "Saas client",
+        "AllowedGrantTypes": [ "client_credentials" ],
+        "AllowAccessTokensViaBrowser": false,
+        "RequireConsent": false,
+        "AllowOfflineAccess": true,
+        "AccessTokenType": 1,
+        "AccessTokenLifetime": 3600, // 1 hours
+        "RefreshTokenExpiration": 1,
+        "RefreshTokenUsage": 1,
+        "AlwaysSendClientClaims": true,
+        "AlwaysIncludeUserClaimsInIdToken": true,
+        "RequireClientSecret": true,
+        "AllowedScopes": [ "openid", "offline_access", "integration" ]
+      }
+    ],
+    "Secrets": {
+      "ecommerce": [ "ecommerce-resource-secret" ],
+      "identity": [ "identity-resource-secret" ],
+      "integration": [ "integration-resource-secret" ],
+      "order": [ "order-resource-secret" ],
+      "notification": [ "notification-resource-secret" ],
+      "ecommerce_service": [ "ecommerce-service-secret" ],
+      "identity_service": [ "identity-service-secret" ],
+      "saas": [ "saas-client-secret" ]
+    }
+  }
+}

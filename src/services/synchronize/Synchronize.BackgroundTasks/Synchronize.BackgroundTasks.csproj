@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup> 
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\buildingBlocks\EventBus\EventBus.csproj" />
+    <ProjectReference Include="..\..\..\shared\ECommerce.Shared\ECommerce.Shared.csproj" />
+    <ProjectReference Include="..\..\..\shared\Integration.Events\Integration.Events\Integration.Events.csproj" />
+    <ProjectReference Include="..\..\..\shared\Scheduler.Jobs\Scheduler.Jobs.csproj" />
+    <ProjectReference Include="..\Synchronize.Infrastructure\Synchronize.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

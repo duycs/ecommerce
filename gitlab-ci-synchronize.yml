@@ -1,0 +1,55 @@
+.synchronize-jobs:
+  rules:
+    - if: $CI_PIPELINE_SOURCE != 'web' && $CI_COMMIT_MESSAGE =~ /\[all\]/
+    - if: $CI_PIPELINE_SOURCE != 'web' && $CI_COMMIT_MESSAGE =~ /\[synchronize\]/
+    - if: $CI_PIPELINE_SOURCE != 'web' && $CI_COMMIT_MESSAGE !~ /\[gateway\]/ && $CI_COMMIT_MESSAGE !~ /\[identity\]/ && $CI_COMMIT_MESSAGE !~ /\[ecommerce\]/ && $CI_COMMIT_MESSAGE !~ /\[order\]/ && $CI_COMMIT_MESSAGE !~ /\[synchronize\]/ && $CI_COMMIT_MESSAGE !~ /\[integration\]/ && $CI_COMMIT_MESSAGE !~ /\[notification\]/ && $CI_COMMIT_MESSAGE !~ /\[all\]/
+      changes:
+        - src/services/synchronize/**/*
+    - if: $CI_PIPELINE_SOURCE == "web" && ($SERVICES =~ /synchronize/ || $SERVICES =~ /all/)
+
+synchronize-jobs 1/4:
+  extends: .synchronize-jobs
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  stage: synchronize-jobs
+  inherit:
+    default: false
+  tags:
+    - dev-vpc-vt
+  script:
+    - docker build . --build-arg ASPNETCORE_ENVIRONMENT=production -f src/services/synchronize/Synchronize.Api/Dockerfile -t ${DOCKER_PREFIX_STAGING}synchronize-jobs:latest
+
+synchronize-jobs 2/4:
+  extends: .synchronize-jobs
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  needs: [synchronize-jobs 1/4]
+  stage: synchronize-jobs
+  tags:
+    - dev-vpc-vt
+  script:
+    - docker push ${DOCKER_PREFIX_STAGING}synchronize-jobs:latest
+
+synchronize-jobs 3/4:
+  extends: .synchronize-jobs
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  needs: [synchronize-jobs 2/4]
+  stage: synchronize-jobs
+  tags:
+    - dev-vpc-vt
+  script:
+    - docker-compose -f $COMPOSE_FILE pull synchronize-jobs
+
+synchronize-jobs 4/4:
+  extends: .synchronize-jobs
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  needs: [synchronize-jobs 3/4]
+  stage: synchronize-jobs
+  inherit:
+    default: false
+  tags:
+    - dev-vpc-vt
+  script:
+    - docker-compose -f $COMPOSE_FILE   up -d synchronize-jobs

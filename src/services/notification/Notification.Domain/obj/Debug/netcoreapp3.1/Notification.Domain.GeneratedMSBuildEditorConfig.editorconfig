@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Notification.Domain
+build_property.ProjectDir = D:\Projects\pexnic\ecommerce\src\services\notification\Notification.Domain\

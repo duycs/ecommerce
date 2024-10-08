@@ -1,0 +1,55 @@
+.notification-api:
+  rules:
+    - if: $CI_PIPELINE_SOURCE != 'web' && $CI_COMMIT_MESSAGE =~ /\[all\]/
+    - if: $CI_PIPELINE_SOURCE != 'web' && $CI_COMMIT_MESSAGE =~ /\[notification\]/
+    - if: $CI_PIPELINE_SOURCE != 'web' && $CI_COMMIT_MESSAGE !~ /\[gateway\]/ && $CI_COMMIT_MESSAGE !~ /\[identity\]/ && $CI_COMMIT_MESSAGE !~ /\[ecommerce\]/ && $CI_COMMIT_MESSAGE !~ /\[order\]/ && $CI_COMMIT_MESSAGE !~ /\[synchronize\]/ && $CI_COMMIT_MESSAGE !~ /\[integration\]/ && $CI_COMMIT_MESSAGE !~ /\[notification\]/ && $CI_COMMIT_MESSAGE !~ /\[all\]/
+      changes:
+        - src/services/notification/**/*
+    - if: $CI_PIPELINE_SOURCE == "web" && ($SERVICES =~ /notification/ || $SERVICES =~ /all/)
+
+notification-api 1/4:
+  extends: .notification-api
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  stage: notification-api
+  inherit:
+    default: false
+  tags:
+    - dev-vpc-vt
+  script:
+    - docker build . --build-arg ASPNETCORE_ENVIRONMENT=production -f src/services/notification/Notification.Api/Dockerfile -t ${DOCKER_PREFIX_STAGING}notification-api:latest
+
+notification-api 2/4:
+  extends: .notification-api
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  needs: [notification-api 1/4]
+  stage: notification-api
+  tags:
+    - dev-vpc-vt
+  script:
+    - docker push ${DOCKER_PREFIX_STAGING}notification-api:latest
+
+notification-api 3/4:
+  extends: .notification-api
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  needs: [notification-api 2/4]
+  stage: notification-api
+  tags:
+    - dev-vpc-vt
+  script:
+    - docker-compose -f $COMPOSE_FILE pull notification-api
+
+notification-api 4/4:
+  extends: .notification-api
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  needs: [notification-api 3/4]
+  stage: notification-api
+  inherit:
+    default: false
+  tags:
+    - dev-vpc-vt
+  script:
+    - docker-compose -f $COMPOSE_FILE   up -d notification-api

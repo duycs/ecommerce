@@ -1,0 +1,17 @@
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\bin\Debug\net6.0\Identity.Application.Read.deps.json
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\bin\Debug\net6.0\Identity.Application.Read.dll
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\bin\Debug\net6.0\Identity.Application.Read.pdb
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\bin\Debug\net6.0\ECommerce.Shared.dll
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\bin\Debug\net6.0\Identity.Application.dll
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\bin\Debug\net6.0\ECommerce.Shared.pdb
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\bin\Debug\net6.0\Identity.Application.pdb
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\obj\Debug\net6.0\Identity.Application.Read.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\obj\Debug\net6.0\Identity.Application.Read.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\obj\Debug\net6.0\Identity.Application.Read.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\obj\Debug\net6.0\Identity.Application.Read.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\obj\Debug\net6.0\Identity.Application.Read.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\obj\Debug\net6.0\Identity.Application.Read.csproj.CopyComplete
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\obj\Debug\net6.0\Identity.Application.Read.dll
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\obj\Debug\net6.0\refint\Identity.Application.Read.dll
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\obj\Debug\net6.0\Identity.Application.Read.pdb
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application.Read\obj\Debug\net6.0\ref\Identity.Application.Read.dll

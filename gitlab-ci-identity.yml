@@ -1,0 +1,55 @@
+.identity-api:
+  rules:
+    - if: $CI_PIPELINE_SOURCE != 'web' && $CI_COMMIT_MESSAGE =~ /\[all\]/
+    - if: $CI_PIPELINE_SOURCE != 'web' && $CI_COMMIT_MESSAGE =~ /\[identity\]/
+    - if: $CI_PIPELINE_SOURCE != 'web' && $CI_COMMIT_MESSAGE !~ /\[gateway\]/ && $CI_COMMIT_MESSAGE !~ /\[identity\]/ && $CI_COMMIT_MESSAGE !~ /\[ecommerce\]/ && $CI_COMMIT_MESSAGE !~ /\[order\]/ && $CI_COMMIT_MESSAGE !~ /\[synchronize\]/ && $CI_COMMIT_MESSAGE !~ /\[integration\]/ && $CI_COMMIT_MESSAGE !~ /\[notification\]/ && $CI_COMMIT_MESSAGE !~ /\[all\]/
+      changes:
+        - src/identity/**/*
+    - if: $CI_PIPELINE_SOURCE == "web" && ($SERVICES =~ /identity/ || $SERVICES =~ /all/)
+
+identity-api 1/4:
+  extends: .identity-api
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  stage: identity-api
+  inherit:
+    default: false
+  tags:
+    - dev-vpc-vt
+  script:
+    - docker build . --build-arg ASPNETCORE_ENVIRONMENT=production -f src/identity/Identity.Api/Dockerfile -t ${DOCKER_PREFIX_STAGING}identity-api:latest
+
+identity-api 2/4:
+  extends: .identity-api
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  needs: [identity-api 1/4]
+  stage: identity-api
+  tags:
+    - dev-vpc-vt
+  script:
+    - docker push ${DOCKER_PREFIX_STAGING}identity-api:latest
+
+identity-api 3/4:
+  extends: .identity-api
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  needs: [identity-api 2/4]
+  stage: identity-api
+  tags:
+    - dev-vpc-vt
+  script:
+    - docker-compose -f $COMPOSE_FILE pull identity-api
+
+identity-api 4/4:
+  extends: .identity-api
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'develop'
+  needs: [identity-api 3/4]
+  stage: identity-api
+  inherit:
+    default: false
+  tags:
+    - dev-vpc-vt
+  script:
+    - docker-compose -f $COMPOSE_FILE   up -d identity-api

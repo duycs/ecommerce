@@ -1,0 +1,56 @@
+﻿[
+  {
+    "id": "SyncCustomerLiabilitiesJob",
+    "title": "Đồng bộ công nợ",
+    "detail": "Will execute everyday at 1am",
+    "cronExpression": "0 1 * * *"
+  },
+  {
+    "id": "SyncQuantityInStockJob",
+    "title": "Đồng bộ tồn kho",
+    "detail": "Will execute everyday at 1am",
+    "cronExpression": "15 1 * * *"
+  },
+  {
+    "id": "SyncPriceJob",
+    "title": "Đồng bộ giá sản phẩm",
+    "detail": "Will execute everyday at 1am",
+    "cronExpression": "45 1 * * *"
+  },
+  {
+    "id": "SyncDeletedProductJob",
+    "title": "Đồng bộ sản phẩm bị xóa",
+    "detail": "Will execute everyday at 1am",
+    "cronExpression": "15 2 * * *"
+  },
+  {
+    "id": "SyncAddedProductJob",
+    "title": "Đồng bộ sản phẩm thêm mới",
+    "detail": "Will execute everyday at 1am",
+    "cronExpression": "45 2 * * *"
+  },
+  {
+    "id": "SyncProductImagesJob",
+    "title": "Đồng bộ ảnh sản phẩm",
+    "detail": "Will execute everyday at 1am",
+    "cronExpression": "15 3 * * *"
+  },
+  {
+    "id": "SyncOrderStatusJob",
+    "title": "Đồng bộ trạng thái đơn hàng",
+    "detail": "Will execute everyday at 1am",
+    "cronExpression": "30 3 * * *"
+  },
+  {
+    "id": "SyncOrderStaffJob",
+    "title": "Đồng bộ nhân viên đơn hàng",
+    "detail": "Will execute everyday at 1am",
+    "cronExpression": "45 3 * * *"
+  },
+  {
+    "id": "SyncOrderDetailsJob",
+    "title": "Đồng bộ chi tiết đơn hàng",
+    "detail": "Will execute everyday at 1am",
+    "cronExpression": "0 4 * * *"
+  }
+]

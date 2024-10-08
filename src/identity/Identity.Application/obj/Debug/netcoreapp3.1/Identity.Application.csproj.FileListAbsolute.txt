@@ -1,0 +1,10 @@
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\bin\Debug\netcoreapp3.1\Identity.Application.deps.json
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\bin\Debug\netcoreapp3.1\Identity.Application.dll
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\bin\Debug\netcoreapp3.1\Identity.Application.pdb
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\netcoreapp3.1\Identity.Application.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\netcoreapp3.1\Identity.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\netcoreapp3.1\Identity.Application.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\netcoreapp3.1\Identity.Application.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\netcoreapp3.1\Identity.Application.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\netcoreapp3.1\Identity.Application.dll
+D:\Projects\pexnic\ecommerce\src\identity\Identity.Application\obj\Debug\netcoreapp3.1\Identity.Application.pdb

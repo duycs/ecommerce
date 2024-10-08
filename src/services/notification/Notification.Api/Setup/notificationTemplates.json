@@ -1,0 +1,22 @@
+﻿[
+  {
+    "key": "order_confirmed",
+    "title": "Thông báo tình trạng đơn hàng",
+    "content": "Sàn Bán Buôn đã tiếp nhận đơn hàng {{saas_code}} của quý khách \n{{date}}"
+  },
+  {
+    "key": "order_shipping",
+    "title": "Thông báo tình trạng đơn hàng",
+    "content": "Đơn hàng {{saas_code}} của quý khách đang được vận chuyển \n{{date}}"
+  },
+  {
+    "key": "order_shipped",
+    "title": "Thông báo tình trạng đơn hàng",
+    "content": "Đơn hàng {{saas_code}} của quý khách đã được giao \n{{date}}"
+  },
+  {
+    "key": "order_canceled",
+    "title": "Thông báo tình trạng đơn hàng",
+    "content": "Đơn hàng {{saas_code}} của quý khách đã bị hủy \n{{date}}"
+  }
+]

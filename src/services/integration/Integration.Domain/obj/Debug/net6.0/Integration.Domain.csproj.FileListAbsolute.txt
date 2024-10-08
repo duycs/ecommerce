@@ -1,0 +1,15 @@
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Domain\bin\Debug\net6.0\Integration.Domain.deps.json
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Domain\bin\Debug\net6.0\Integration.Domain.dll
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Domain\bin\Debug\net6.0\Integration.Domain.pdb
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Domain\bin\Debug\net6.0\ECommerce.Shared.dll
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Domain\bin\Debug\net6.0\ECommerce.Shared.pdb
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Domain\obj\Debug\net6.0\Integration.Domain.csproj.AssemblyReference.cache
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Domain\obj\Debug\net6.0\Integration.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Domain\obj\Debug\net6.0\Integration.Domain.AssemblyInfoInputs.cache
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Domain\obj\Debug\net6.0\Integration.Domain.AssemblyInfo.cs
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Domain\obj\Debug\net6.0\Integration.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Domain\obj\Debug\net6.0\Integration.Domain.csproj.CopyComplete
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Domain\obj\Debug\net6.0\Integration.Domain.dll
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Domain\obj\Debug\net6.0\refint\Integration.Domain.dll
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Domain\obj\Debug\net6.0\Integration.Domain.pdb
+D:\Projects\pexnic\ecommerce\src\services\integration\Integration.Domain\obj\Debug\net6.0\ref\Integration.Domain.dll

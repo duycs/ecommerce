@@ -1,0 +1,433 @@
+﻿[
+  {
+    "Name": "Trẻ em",
+    "SaasId": 30,
+    "Children": [
+      {
+        "Name": "Kẹp trẻ em",
+        "Children": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          106,
+          185
+        ]
+      },
+      {
+        "Name": "Sandal trẻ em",
+        "Children": [
+          50,
+          51,
+          52,
+          153,
+          194,
+          195,
+          196
+        ]
+      },
+      {
+        "Name": "Giầy thể thao trẻ em",
+        "Children": [
+          53,
+          54,
+          55,
+          189
+        ]
+      },
+      {
+        "Name": "Sục Trẻ Em",
+        "Children": [
+          56,
+          57,
+          58,
+          105
+        ]
+      },
+      {
+        "Name": "Boot trẻ em",
+        "Children": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "Name": "Giầy da trẻ em",
+        "Children": [
+          62,
+          63,
+          64
+        ]
+      },
+      {
+        "Name": "Túi xách trẻ em",
+        "Children": [
+          65
+        ]
+      },
+      {
+        "Name": "Búp bê trẻ em",
+        "Children": [
+          66,
+          67,
+          68
+        ]
+      },
+      {
+        "Name": "Lê trẻ em",
+        "Children": [
+          104,
+          140
+        ]
+      },
+      {
+        "Name": "Sục nhựa",
+        "Children": [
+          138
+        ]
+      },
+      {
+        "Name": "Sục lông",
+        "Children": [
+          147
+        ]
+      },
+      {
+        "Name": "Bata trẻ em",
+        "Children": [
+          149
+        ]
+      },
+      {
+        "Name": "Giầy bóng đá trẻ em",
+        "Children": [
+          183
+        ]
+      },
+      {
+        "Name": "Dép Trẻ Em",
+        "Children": [
+          179,
+          180,
+          181,
+          182
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Nam",
+    "SaasId": 31,
+    "Children": [
+      {
+        "Name": "Thể thao nam",
+        "Children": [
+          69,
+          71,
+          73,
+          75,
+          125,
+          184
+        ]
+      },
+      {
+        "Name": "Bata nam",
+        "Children": [
+          70,
+          72,
+          74
+        ]
+      },
+      {
+        "Name": "Giày tây nhập khẩu",
+        "Children": [
+          82,
+          164,
+          167,
+          171
+        ]
+      },
+      {
+        "Name": "Giày lười nhập khẩu",
+        "Children": [
+          83
+        ]
+      },
+      {
+        "Name": "Giày da lật",
+        "Children": [
+          84,
+          87,
+          158
+        ]
+      },
+      {
+        "Name": "Giày tây",
+        "Children": [
+          85,
+          132,
+          156,
+          170,
+          172
+        ]
+      },
+      {
+        "Name": "Giày lười",
+        "Children": [
+          86,
+          157,
+          199
+        ]
+      },
+      {
+        "Name": "Rọ",
+        "Children": [
+          88,
+          89,
+          124,
+          165,
+          174
+        ]
+      },
+      {
+        "Name": "Giày nam độn đế",
+        "Children": [
+          90
+        ]
+      },
+      {
+        "Name": "Kẹp",
+        "Children": [
+          91,
+          95,
+          96,
+          102,
+          110,
+          134,
+          136,
+          162,
+          175
+        ]
+      },
+      {
+        "Name": "Sandal",
+        "Children": [
+          92,
+          114,
+          161,
+          168
+        ]
+      },
+      {
+        "Name": "Sandal nhập khẩu",
+        "Children": [
+          93,
+          115,
+          159,
+          197
+        ]
+      },
+      {
+        "Name": "Lê nhựa",
+        "Children": [
+          94,
+          97
+        ]
+      },
+      {
+        "Name": "Lê",
+        "Children": [
+          101,
+          108,
+          113,
+          133,
+          137,
+          160,
+          163,
+          169,
+          173,
+          187
+        ]
+      },
+      {
+        "Name": "Sục",
+        "Children": [
+          118,
+          166,
+          198,
+          201
+        ]
+      },
+      {
+        "Name": "Dép",
+        "Children": [
+          119,
+          131
+        ]
+      },
+      {
+        "Name": "Giày Slipon",
+        "Children": [
+          122
+        ]
+      },
+      {
+        "Name": "Thể thao da nam",
+        "Children": [
+          123
+        ]
+      },
+      {
+        "Name": "Bốt nam",
+        "Children": [
+          154
+        ]
+      },
+      {
+        "Name": "Giày đốc nam",
+        "Children": [
+          155
+        ]
+      },
+      {
+        "Name": "Giày nhựa",
+        "Children": [
+          188
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Nữ",
+    "SaasId": 29,
+    "Children": [
+      {
+        "Name": "Bốt nữ",
+        "Children": [
+          43
+        ]
+      },
+      {
+        "Name": "Bốt nữ Nhập Khẩu",
+        "Children": [
+          100
+        ]
+      },
+      {
+        "Name": "Giày da nữ",
+        "Children": [
+          39,
+          126,
+          178,
+          192,
+          200
+        ]
+      },
+      {
+        "Name": "Giầy thể thao nữ",
+        "Children": [
+          40,
+          76,
+          79,
+          190,
+          191
+        ]
+      },
+      {
+        "Name": "Kẹp nữ",
+        "Children": [
+          36,
+          103,
+          109,
+          127
+        ]
+      },
+      {
+        "Name": "Lê nữ",
+        "Children": [
+          37,
+          77,
+          80,
+          111,
+          112,
+          129,
+          141
+        ]
+      },
+      {
+        "Name": "Sandal nữ",
+        "Children": [
+          38,
+          116,
+          117,
+          128
+        ]
+      },
+      {
+        "Name": "Sục nữ",
+        "Children": [
+          41,
+          139,
+          148
+        ]
+      },
+      {
+        "Name": "Sục thể thao nữ",
+        "Children": [
+          135
+        ]
+      },
+      {
+        "Name": "Bata nữ Nhập Khẩu",
+        "Children": [
+          78
+        ]
+      },
+      {
+        "Name": "Bata nữ",
+        "Children": [
+          81,
+          150
+        ]
+      },
+      {
+        "Name": "Dép nữ",
+        "Children": [
+          120,
+          121
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Phụ kiện",
+    "SaasId": 35,
+    "Children": [
+      {
+        "Name": "Lót",
+        "Children": [
+          99
+        ]
+      },
+      {
+        "Name": "Phụ kiện khác",
+        "Children": [
+          151,
+          152,
+          145,
+          146,
+          176
+        ]
+      },
+      {
+        "Name": "Xi",
+        "Children": [
+          98
+        ]
+      }
+    ]
+  }
+]
