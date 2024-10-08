@@ -8,6 +8,7 @@
 - Event sourcing
 
 ### Services
+- API gateway
 - Identity
 - Ecommerce(Customer, Supplier, Product)
 - Order
